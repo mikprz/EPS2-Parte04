@@ -36,11 +36,9 @@ elif opcion=='2':
      nombre=input("id del producto a eliminar: ")
      Eliminar.Funcion2(nombre)
 elif opcion=='3':
-     nombre2=input("nuevo nombre del producto: ")
-     id=input("id del producto a editar: ")
-     Editar.Funcion2(nombre2,id)
+    Editar.Funcion2()
 elif opcion=='4':
-     Listar.Funcion1()
+    Listar.Funcion1()
 else:
     exit()
 
