@@ -1,0 +1,13 @@
+Integrantes
+Nombre del Estudiante 01: Sebastian Rakauskas
+Git Hub: https://github.com/sbtnuwu/EPS2-Parte01.git
+
+Nombre del Estudiante 02: Sebastian Rakauskas
+Git Hub: https://github.com/sbtnuwu/EPS2-Parte02.git
+
+Nombre del Estudiante 03: Diego Quispe
+Git Hub: https://github.com/DieGodV3/EPS2-Parte03.git
+
+Nombre del Estudiante 04: Miguel Prado
+Git Hub: https://github.com/mikprz/EPS2-Parte04.git
+

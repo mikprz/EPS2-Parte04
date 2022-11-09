@@ -1,6 +1,8 @@
 import sqlite3
 import Listar
 import Registrar
+import Eliminar
+import Editar
 
 conexion = sqlite3.connect("Rakauskas_Quispe_Prado_almacen.db")
 tabla_producto =""" CREATE TABLE IF NOT EXISTS Producto(
@@ -31,12 +33,14 @@ if opcion=='1':
     precio=input("precio: ")
     Registrar.Agregar(codigo,nombre,precio)
 elif opcion=='2':
-     n=1
+     nombre=input("id del producto a eliminar: ")
+     Eliminar.Funcion2(nombre)
 elif opcion=='3':
-    n=2
+     nombre2=input("nuevo nombre del producto: ")
+     id=input("id del producto a editar: ")
+     Editar.Funcion2(nombre2,id)
 elif opcion=='4':
      Listar.Funcion1()
 else:
-     
-    n=6
+    exit()
 
